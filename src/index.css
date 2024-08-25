@@ -2,6 +2,9 @@
 @tailwind components;
 @tailwind utilities;
 
-*{
+* {
     font-family: Montserrat;
+
+    /* box-sizing: border-box; */
+    color: inherit;
 }

@@ -11,8 +11,8 @@
     height: 576px;
     /* margin: 1000px 0 0; */
     /* object-fit: contain; */
-    background-image: url("./src/img/mainpage/introduction-bg.png");
+    background-image: url('./src/img/mainpage/introduction-bg.png');
     background-position: center; /* Center the image */
     background-repeat: no-repeat; /* Do not repeat the image */
     background-size: cover;
-  }
+}
