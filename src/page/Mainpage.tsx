@@ -134,6 +134,7 @@ const Mainpage = () => {
                                 <img
                                     src={`./src/img/mainpage/listitem/img-${item.imgNumber}.png`}
                                     alt=""
+                                    className="w-full"
                                 />
                                 <div className="my-4">
                                     [what happen] How to create
@@ -161,8 +162,8 @@ const Mainpage = () => {
             </div>
 
             {/* brand story */}
-            <div className="bg-[#0065bc] py-40 relative min-w-full">
-                <div className="flex flex-col gap-6 w-full h-full items-center overflow-x-hidden">
+            <div className="bg-[#0065bc]  relative min-w-full">
+                <div className="flex flex-col gap-8 w-full h-full items-center overflow-x-hidden py-20">
                     <span className="Best-Product flex justify-center text-[45px] uppercase font-bold text-[#fcd425]">
                         Brand Story
                     </span>
@@ -172,7 +173,7 @@ const Mainpage = () => {
                         브랜드의 성공을 위한 첫 걸음을 내딛어보세요. 비디오를 단
                         몇 분 만에 제작해보세요.
                     </span>
-                    <div className="relative">
+                    <div className="relative pt-10">
                         <div className="relative z-40">
                             <img
                                 src="./src/img/mainpage/bandstory/window.png"
@@ -234,14 +235,14 @@ const Mainpage = () => {
                             </div>
                         </div>
 
-                        <div className="absolute -top-[35%] -left-[12%] z-20  flex justify-between">
+                        <div className="absolute -top-[30%] -left-[12%] flex justify-between">
                             <img
                                 src="./src/img/mainpage/bandstory/object-01.png"
                                 alt="notepaper"
                             />
                         </div>
 
-                        <div className="absolute -top-[55%] -right-[10%] z-20 flex justify-between">
+                        <div className="absolute -top-[50%] -right-[10%]">
                             <img
                                 src="./src/img/mainpage/bandstory/object-02.png"
                                 alt="notepaper"
@@ -259,7 +260,7 @@ const Mainpage = () => {
             </div>
 
             {/* happend's issue */}
-            <div className="bg-[#fccb05] py-40 flex flex-col gap-8 items-center">
+            <div className="bg-[#fccb05] h-full py-20 pb-40 flex flex-col gap-8 items-center">
                 <div className="uppercase font-bold text-[45px]">
                     Happened’s issue
                 </div>
@@ -273,9 +274,9 @@ const Mainpage = () => {
                 <div className="border-[3px] border-black w-[200px] h-[60px] uppercase font-bold rounded-md items-center justify-center flex">
                     see more
                 </div>
-                <div className="bg-black w-full h-full grid grid-cols-5">
+                <div className="bg-black w-full h-full grid grid-cols-5 mt-20">
                     <div className="inline-block bg-[#f50] w-full relative">
-                        <div className="flex flex-col ">
+                        <div className="flex flex-col h-full justify-evenly">
                             <div className="whpn-issue text-black font-bold text-[55px]  uppercase text-center leading-[1.04] p-6">
                                 whpn <br /> issue
                             </div>
@@ -361,12 +362,12 @@ const Mainpage = () => {
             </div>
 
             {/* what happend */}
-            <div className=" flex flex-col gap-8 items-center relative ">
+            <div className=" flex flex-col gap-8 items-center relative py-20">
                 <div className="flex flex-col gap-6 w-full h-full items-center overflow-hidden">
                     <span className="Best-Product flex justify-center text-[50px] uppercase font-bold">
                         what happened
                     </span>
-                    <span className="flex justify-center text-[20px] text-center max-w-[500px] min-w-[667px] px-auto">
+                    <span className="flex justify-center text-[20px] text-center max-w-[800px] min-w-[600px] px-auto">
                         How to create mobile-optimized videos in minutes. Not a
                         designer, every team makes a lot of videos Can be
                         trimmed. Take the first
@@ -377,7 +378,7 @@ const Mainpage = () => {
                             see more
                         </div>
                     </div>
-                    <div className="relative mb-80">
+                    <div className="relative mb-80 mt-10">
                         <div className="relative z-40">
                             <img
                                 src="./src/img/mainpage/brand-video/video.png"
