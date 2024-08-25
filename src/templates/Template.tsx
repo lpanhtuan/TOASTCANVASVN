@@ -6,7 +6,9 @@ const Template = () => {
         <div>
             <header className="mx-auto box flex justify-between items-center">
                 <div className="header-left">
-                    <img src="./src/img/logo.svg" alt="" />
+                    <Link to={'/'}>
+                        <img src="./src/img/logo.svg" alt="" />
+                    </Link>
                 </div>
                 <div className="header-right flex flex-row-end  flex-nowrap justify-between w-1/2 text-white">
                     <div className="Introduction">Introduction</div>
